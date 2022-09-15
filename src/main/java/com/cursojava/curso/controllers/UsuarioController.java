@@ -41,4 +41,6 @@ public class UsuarioController {
         usuarioDao.registrar(usuario);
     }
 
+
+
 }
