@@ -47,12 +47,29 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- Getters y setters con anotaciones -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.18.24</version>
 			<scope>provided</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/de.mkammerer/argon2-jvm -->
+		<!-- para hash de contraseñas-->
+		<dependency>
+			<groupId>de.mkammerer</groupId>
+			<artifactId>argon2-jvm</artifactId>
+			<version>2.11</version>
+		</dependency>
+
+		<!-- para json web tokens-->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+
 
 	</dependencies>
 
